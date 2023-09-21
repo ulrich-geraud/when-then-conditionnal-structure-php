@@ -1,0 +1,17 @@
+{
+    "name": "cleancoders/when-then-pattern",
+    "description": "Example implementation when-then pattern in php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cleancoders\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ulrich Geraud A.",
+            "email": "ulrich.ahogla@hotmail.com"
+        }
+    ],
+    "require": {}
+}
