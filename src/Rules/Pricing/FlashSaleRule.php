@@ -26,7 +26,7 @@ final class FlashSaleRule implements PricingRuleInterface
      */
     public function then(Item $item): void
     {
-        $item->updatePriceAfterDiscount($item->getPrice() - ($item->getPrice() * 0.55)); // Réduction de 40%
+        $item->updatePriceAfterDiscount($item->getPrice() - ($item->getPrice() * 0.55)); // Réduction de 55%
     }
 }
 
